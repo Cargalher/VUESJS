@@ -5,16 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .red{
+            color: red;
+        }
+        .blue{
+            color:blue
+        }
+    </style>
 </head>
 <body>
     <div id="root">
+   <!--  1st livecoding v-model
 
-        <label for="">Name</label>
+         <label for="">Name</label>
         <input type="text" v-model = "name">
         <label for="">lastname</label>
         <input type="text"v-model = "lastname">
         <h1>Hello {{name}} {{lastname}}</h1>
-        
+
+    -->
+    <!-- Fabio's example V-bind 2 ways to write it// button with alert example
+        <h1>{{title}}</h1>
+        <p v-bind:class="classTitle">Hello</p>
+        <p :class="classTitle">Hello 2</p> -->
+
+
+        <!-- create a button which on click makes appear a alert message with a title 
+        <button @click ="greetings">Alert User</button> -->
+
+        <!-- 2nd livecoding -->
+        <h1 v-bind:class="colorClass">titolo Vue</h1>
+        <button @click ="changeColor">click me</button>
     </div>
 
 
