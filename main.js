@@ -22,8 +22,10 @@ let app = new Vue (
 // Fabio's example.
 let app = new Vue (
     {
+        // options objects
         el: '#root',
         data:{
+            // tutte le propieta che vi servono per il funzionamento della vs appl
             message:"Hello Vue.Js",
             title:"Learn VueJs",
             classTitle: 'lead'
@@ -44,7 +46,7 @@ let app = new Vue (
 */
 
 // 2nd.livecoding. Creiamo una pagina con all’interno un titolo di colore rosso. Al click di un bottone il titolo diventerà blu.
-
+/*
 const app = new Vue({
     el: '#root',
     data:{
@@ -62,3 +64,4 @@ const app = new Vue({
         }
     }
 })
+*/
