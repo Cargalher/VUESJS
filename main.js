@@ -65,3 +65,25 @@ const app = new Vue({
     }
 })
 */
+
+
+
+// livecoding 18th may______Vif
+
+/*1st livecoding
+let app = new Vue (
+    {
+        el: '#root',
+        data:{
+            movies: ["LOTR", "Matrix", "john Wick", "Avatar"]
+        }
+    },
+)
+*/
+// livecoding 2_Stampiamo i numeri da 1 a 100 tramite la direttiva v-for
+const app = new Vue ({
+    el: '#root',
+    data:{
+        numero: ,
+    }
+})
